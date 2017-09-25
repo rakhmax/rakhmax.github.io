@@ -20,14 +20,9 @@ header
     height: 100vh
     color: $mainTextClr
     background-blend-mode: multiply
-    background: url("../img/oblaka_nebo_gory_les_vid_1920x1173.jpg")
-    background-color: rgba(0,0,0,0.4)
+    background: linear-gradient( to bottom, rgba(0,0,0,0.5), rgba(59, 81, 113,1)), url("../img/oblaka_nebo_gory_les_vid_1920x1173.jpg")
+    //background-color: rgba(0,0,0,0.4)
     background-size: cover
-
-
-
-
-
 
 .me
     padding: 25vh 0 25vh 0
@@ -42,9 +37,13 @@ header
         h1
             font-family: 'Play', sans-serif
         a
-            color: $mainTextClr
+            color: rgba(255,255,255,0.5)
+            transition: 0.4s
+            &:hover
+                color: $mainTextClr
         img
             display: flex
+
 #avatar
     border: 3px solid $mainTextClr
     border-radius: 150px
@@ -56,6 +55,8 @@ header
         display: flex
         justify-content: space-around
         list-style: none
+        font-size: 1.2rem
+        font-weight: 600
     a
         color: $mainTextClr
         text-decoration: none
@@ -63,9 +64,19 @@ header
 h2
     text-align: center
 
+.triangle
+    background-color: #fbfbfb
+    width: 45%
+    height: 30%
+    border-style: solid
+    border-width: 20px 0 0 50px
+    border-color: #3b5171 transparent transparent transparent
+    text-align: center
+    margin-left: 55%
+
+
 #courses
     color: $mainTextClr
-
     background: #3b5171
     h2
         margin: 0
@@ -74,17 +85,14 @@ h2
     #certificatas
         display: flex
         justify-content: space-around
-
         align-items: center
-
         padding-bottom: 40px
         div
             display: flex
             justify-content: space-around
 
-
 #exp
-    background-color: #fbfbfb
+    background: #fbfbfb
     h2
         margin: 0
         padding: 20px 0 20px 0
@@ -94,9 +102,22 @@ h2
         flex-direction: row-reverse
         p
             align-self: center
+    a
+
+        color: #000000
+
+.triangle-1
+    background-color: #fbfbfb
+    width: 45%
+    height: 30%
+    border-style: solid
+    border-width: 0 50px 20px 0
+    border-color: transparent transparent #585659 transparent
+    text-align: center
+
 
 #eng
-    background-color: #414e53
+    background-color: #585659
     color: $mainTextClr
     font-size: 1.5rem
     img
@@ -112,12 +133,9 @@ h2
 .va
     vertical-align: middle
 
-
-
 #why
     height: 100vh
     color: $mainTextClr
-
     background: url("../img/web-programming.jpg") no-repeat
     background-blend-mode: multiply
     background-color: rgba(0,0,0,0.7)

@@ -5,13 +5,15 @@ $p: 25px
     #drone-mobile
         display: none
 @media (max-width: 991px)
+
+        
     header
         height: $h_and_f
         display: flex
         justify-content: center
 
     p
-        font-size: 1rem
+        font-size: 1.1rem
 
 
     .menu
@@ -54,13 +56,22 @@ $p: 25px
             //display: block
             text-align: center
             //align-items: center
-    #iphone
+    .triangle-1
+        display: none
 
+    .triangle-2
+        background-color: #fbfbfb
+        width: 45%
+        height: 30%
+        border-style: solid
+        border-width: 0 50px 20px 0
+        border-color: transparent transparent #585659 transparent
+        text-align: center
     #eng
         padding: 130px $p 130px $p
 
         font-size: 1.2rem
-        background-size: contain
+        background-size: 100%
         background-blend-mode: multiply
         background: url(../img/mobile_eng.png) no-repeat
         background-color: rgba(0,0,0,0.7)

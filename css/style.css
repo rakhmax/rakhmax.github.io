@@ -16,8 +16,7 @@ header {
   height: 100vh;
   color: #efefef;
   background-blend-mode: multiply;
-  background: url("../img/oblaka_nebo_gory_les_vid_1920x1173.jpg");
-  background-color: rgba(0, 0, 0, 0.4);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), #3b5171), url("../img/oblaka_nebo_gory_les_vid_1920x1173.jpg");
   background-size: cover; }
 
 .me {
@@ -33,7 +32,10 @@ header {
     .me #name h1 {
       font-family: "Play", sans-serif; }
     .me #name a {
-      color: #efefef; }
+      color: rgba(255, 255, 255, 0.5);
+      transition: 0.4s; }
+      .me #name a:hover {
+        color: #efefef; }
     .me #name img {
       display: flex; }
 
@@ -46,13 +48,25 @@ header {
   margin: 0;
   display: flex;
   justify-content: space-around;
-  list-style: none; }
+  list-style: none;
+  font-size: 1.2rem;
+  font-weight: 600; }
 .menu a {
   color: #efefef;
   text-decoration: none; }
 
 h2 {
   text-align: center; }
+
+.triangle {
+  background-color: #fbfbfb;
+  width: 45%;
+  height: 30%;
+  border-style: solid;
+  border-width: 20px 0 0 50px;
+  border-color: #3b5171 transparent transparent transparent;
+  text-align: center;
+  margin-left: 55%; }
 
 #courses {
   color: #efefef;
@@ -70,7 +84,7 @@ h2 {
       justify-content: space-around; }
 
 #exp {
-  background-color: #fbfbfb; }
+  background: #fbfbfb; }
   #exp h2 {
     margin: 0;
     padding: 20px 0 20px 0; }
@@ -80,9 +94,20 @@ h2 {
     flex-direction: row-reverse; }
     #exp div p {
       align-self: center; }
+  #exp a {
+    color: #000000; }
+
+.triangle-1 {
+  background-color: #fbfbfb;
+  width: 45%;
+  height: 30%;
+  border-style: solid;
+  border-width: 0 50px 20px 0;
+  border-color: transparent transparent #585659 transparent;
+  text-align: center; }
 
 #eng {
-  background-color: #414e53;
+  background-color: #585659;
   color: #efefef;
   font-size: 1.5rem; }
   #eng img {
