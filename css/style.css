@@ -99,7 +99,7 @@ h2 {
   vertical-align: middle; }
 
 #why {
-  height: 600px;
+  height: 100vh;
   color: #efefef;
   background: url("../img/web-programming.jpg") no-repeat;
   background-blend-mode: multiply;
@@ -113,11 +113,11 @@ h2 {
     padding: 20px 0 20px 0;
     font-size: 2.5rem; }
   #why div {
-    align-self: center; }
+    align-self: center;
+    padding: 15px; }
     #why div p {
       text-align: center;
-      display: flex;
-      padding: 0 12rem 0 12rem; }
+      display: flex; }
   #why p {
     padding-bottom: 20px; }
 
