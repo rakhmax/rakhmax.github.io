@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/hover-min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Максим Рахманин</title>
+</head>
+<body>
+    <header>
+        <div class="bg-img"></div>
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="javascript://0" onclick="smoothScroll('#courses')" class="menu-link">ПРОЙДЕННЫЕ КУРСЫ</a>
+                </li>
+                <li><a href="javascript://0" onclick="smoothScroll('#exp')" class="menu-link">ОПЫТ</a></li>
+                <li><a href="javascript://0" onclick="smoothScroll('#why')" class="menu-link">ПОЧЕМУ ФРОНТЕНД</a></li>
+            </ul>
+        </div>
+        <div class="me">
+            <div id="name">
+                <h1>Максим <br> Рахманин</h1>
+                <p>Студент 2-го курса кафедры <br> Информационно-аналитических
+                    систем безопасности <br> ИТА ЮФУ</p>
+                <div>
+                    <a href="https://vk.com/rakhmax"><i class="fa fa-vk"></i></a>
+                </div>
+            </div>
+
+            <div>
+                <a href="https://vk.com/rakhmax"><img src="img/face.jpg" alt="" id="avatar" width="300" height="300"></a>
+            </div>
+        </div>
+    </header>
+
+    <section id="courses">
+        <h2>Пройденные курсы</h2>
+        <div id="certificatas">
+            <div>
+                <p>
+                    Основные знания по фронтенд-разработке <br> я беру из разных видеокурсов на YouTube, <br>но так же прошел несколько
+                    <br>теоретических курсов от Sololearn
+                </p>
+            </div>
+            <div>
+                <img class="hvr-grow" src="img/cert-1023-707275.jpg" height="210" width="300"/>
+            </div>
+
+
+        </div>
+    </section>
+    <section id="exp">
+        <h2>Опыт</h2>
+        <div>
+            <div>
+                <p>Имеется опыт работы с HTML, CSS
+                    <br>(в т.ч.  CSS-библиотекой Bootstrap),
+                    <br>JS (jQuery), CSS-препроцессором SASS
+                    <br>и также адаптивной версткой
+
+                </p>
+
+            </div>
+
+            <div>
+                <a href="https://dronostore.github.io/"><img id="drone" src="img/dronostore.png" class="hvr-forward" alt="" height="350" width="350"></a>
+                <a href="https://dronostore.github.io/" id="drone-mobile"><img src="img/dronostore-logo.png" alt="" style="width:50% !important;
+                    height:50% !important; text-align: center"></a>
+            </div>
+        </div>
+    </section>
+    <section id="eng">
+        <div>
+            <h3>Уровень английского языка:<br>СРЕДНИЙ</h3>
+            <img id="eng_flag" src="img/english.png" alt="" height="256" width="256">
+        </div>
+    </section>
+    <section id="why">
+        <div>
+            <h2>Почему фронтенд?</h2>
+            <p>Фронтенд - одно из самых быстроразвивающихся и перспективных направлений в IT-сфере.
+                <br>Сейчас ни одна сфера бизнеса от малой до крупной не может обойтись без своего собственного
+                интернет-сайта. <br> Лично меня во фронтенде привлекает его понятность, так же мне нравится тот факт,
+                <br>что я могу сделать что-то, чем можно будет приятно и удобно пользоваться.</p>
+        </div>
+    </section>
+
+    <footer></footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css?family=Jura|Play");
+*, *::before, *::after {
+  box-sizing: border-box; }
+
+h2 {
+  font-size: 30px; }
+
+body {
+  font-family: "Jura", sans-serif;
+  margin: 0; }
+
+p {
+  font-size: 1.3rem; }
+
+header {
+  height: 100vh;
+  color: #efefef;
+  background-blend-mode: multiply;
+  background: url("../img/oblaka_nebo_gory_les_vid_1920x1173.jpg");
+  background-color: rgba(0, 0, 0, 0.4);
+  background-size: cover; }
+
+.me {
+  padding: 25vh 0 25vh 0;
+  display: flex;
+  justify-content: space-around; }
+  .me #name {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .me #name h1 {
+      font-family: "Play", sans-serif; }
+    .me #name a {
+      color: #efefef; }
+
+#avatar {
+  border: 3px solid #efefef;
+  border-radius: 150px; }
+
+.menu ul {
+  padding: 20px 150px 20px 150px;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  list-style: none; }
+.menu a {
+  color: #efefef;
+  text-decoration: none; }
+
+h2 {
+  text-align: center; }
+
+#courses {
+  color: #efefef;
+  background: #3b5171; }
+  #courses h2 {
+    margin: 0;
+    padding: 20px 0 20px 0; }
+  #courses #certificatas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 40px; }
+    #courses #certificatas div {
+      display: flex;
+      justify-content: space-around; }
+
+#exp {
+  background-color: #fbfbfb; }
+  #exp h2 {
+    margin: 0;
+    padding: 20px 0 20px 0; }
+  #exp div {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse; }
+    #exp div p {
+      align-self: center; }
+
+#eng {
+  background-color: #414e53;
+  color: #efefef;
+  font-size: 1.5rem; }
+  #eng img {
+    padding: 20px;
+    margin: 20px; }
+  #eng div {
+    display: flex;
+    justify-content: space-around; }
+    #eng div h3 {
+      align-self: center;
+      text-align: center; }
+
+.va {
+  vertical-align: middle; }
+
+#why {
+  height: 100vh;
+  color: #efefef;
+  background: url("../img/web-programming.jpg") no-repeat;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center; }
+  #why h2 {
+    margin: 0;
+    padding: 20px 0 20px 0;
+    font-size: 2.5rem; }
+  #why div {
+    align-self: center; }
+    #why div p {
+      text-align: center;
+      display: flex;
+      margin: 0 12rem 0 12rem; }
+  #why p {
+    padding-bottom: 20px; }
+
+#drone {
+  cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */
