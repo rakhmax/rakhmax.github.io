@@ -2,25 +2,50 @@
   #drone-mobile {
     display: none; } }
 @media (max-width: 991px) {
+  header {
+    height: 600px;
+    display: flex;
+    justify-content: center; }
+
+  p {
+    font-size: 1rem; }
+
   .menu {
     display: none; }
 
   .me {
-    margin: 0;
-    flex-direction: row; }
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    padding: 15px; }
+
+  #name {
+    align-items: center; }
+
+  #name1 {
+    font-size: 1rem; }
+
+  #avatar {
+    width: 200px;
+    height: 200px; }
+
+  #courses {
+    padding-left: 15px;
+    padding-right: 15px; }
 
   #certificatas {
     flex-direction: column; }
 
   #exp {
-    margin: 15px; }
+    padding-left: 15px;
+    padding-right: 15px; }
     #exp div {
       flex-direction: column; }
     #exp p {
       text-align: center; }
 
   #eng {
-    padding: 15vh 0 15vh 0;
+    padding: 15vh 15px 15vh 15px;
     font-size: 1.2rem;
     background-size: contain;
     background-blend-mode: multiply;

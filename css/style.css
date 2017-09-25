@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Jura|Play");
+@import url("https://fonts.googleapis.com/css?family=Jura|Play&subset=cyrillic");
 *, *::before, *::after {
   box-sizing: border-box; }
 
@@ -23,7 +23,8 @@ header {
 .me {
   padding: 25vh 0 25vh 0;
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-around;
+  align-content: center; }
   .me #name {
     font-size: 1.5rem;
     display: flex;
@@ -33,6 +34,8 @@ header {
       font-family: "Play", sans-serif; }
     .me #name a {
       color: #efefef; }
+    .me #name img {
+      display: flex; }
 
 #avatar {
   border: 3px solid #efefef;
@@ -96,7 +99,7 @@ h2 {
   vertical-align: middle; }
 
 #why {
-  height: 100vh;
+  height: 600px;
   color: #efefef;
   background: url("../img/web-programming.jpg") no-repeat;
   background-blend-mode: multiply;
@@ -114,7 +117,7 @@ h2 {
     #why div p {
       text-align: center;
       display: flex;
-      margin: 0 12rem 0 12rem; }
+      padding: 0 12rem 0 12rem; }
   #why p {
     padding-bottom: 20px; }
 

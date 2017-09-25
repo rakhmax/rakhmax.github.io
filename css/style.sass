@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Jura|Play')
+@import url('https://fonts.googleapis.com/css?family=Jura|Play&subset=cyrillic')
 
 $mainTextClr: #efefef
 
@@ -25,10 +25,14 @@ header
 
 
 
+
+
+
 .me
     padding: 25vh 0 25vh 0
     display: flex
     justify-content: space-around
+    align-content: center
     #name
         font-size: 1.5rem
         display: flex
@@ -38,12 +42,13 @@ header
             font-family: 'Play', sans-serif
         a
             color: $mainTextClr
+        img
+            display: flex
 #avatar
     border: 3px solid $mainTextClr
     border-radius: 150px
 
 .menu
-
     ul
         padding: 20px 150px 20px 150px
         margin: 0
@@ -106,8 +111,10 @@ h2
 .va
     vertical-align: middle
 
+
+
 #why
-    height: 100vh
+    height: 600px
     color: $mainTextClr
 
     background: url("../img/web-programming.jpg") no-repeat
@@ -126,7 +133,7 @@ h2
         p
             text-align: center
             display: flex
-            margin: 0 12rem 0 12rem
+            padding: 0 12rem 0 12rem
 
     p
         padding-bottom: 20px
