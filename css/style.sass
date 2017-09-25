@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Jura|Play&subset=cyrillic')
 
 $mainTextClr: #efefef
+$eng: rgb(113, 24, 45)
 
 
 *, *::before, *::after
@@ -36,11 +37,6 @@ header
         justify-content: center
         h1
             font-family: 'Play', sans-serif
-        a
-            color: rgba(255,255,255,0.5)
-            transition: 0.4s
-            &:hover
-                color: $mainTextClr
         img
             display: flex
 
@@ -90,6 +86,10 @@ h2
         div
             display: flex
             justify-content: space-around
+            a
+                transition: 0.3s
+                &:hover
+                    box-shadow: 0 0 24px 0 rgba(0,0,0,0.75)
 
 #exp
     background: #fbfbfb
@@ -100,6 +100,7 @@ h2
         display: flex
         justify-content: space-around
         flex-direction: row-reverse
+
         p
             align-self: center
     a
@@ -112,12 +113,12 @@ h2
     height: 30%
     border-style: solid
     border-width: 0 50px 20px 0
-    border-color: transparent transparent #585659 transparent
+    border-color: transparent transparent $eng transparent
     text-align: center
 
 
 #eng
-    background-color: #585659
+    background-color: $eng
     color: $mainTextClr
     font-size: 1.5rem
     img
@@ -136,11 +137,12 @@ h2
 #why
     height: 100vh
     color: $mainTextClr
-    background: url("../img/web-programming.jpg") no-repeat
+    background: linear-gradient( to bottom, rgba(113, 24, 45, 0.7), rgba(0,0,0,0.7)), url("../img/web-programming.jpg") no-repeat
     background-blend-mode: multiply
-    background-color: rgba(0,0,0,0.7)
+    //background-color: rgba(0,0,0,0.7)
     background-position: center center
     background-size: cover
+
     display: flex
     justify-content: center
     h2
