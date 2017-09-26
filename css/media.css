@@ -8,17 +8,25 @@
   #certificatas div a {
     transition: 0.3s; }
     #certificatas div a:hover {
-      transform: translateX(-10px); } }
+      transform: translateX(-10px); }
+
+  .drone {
+    transition: 0.3s; }
+    .drone:hover {
+      transform: translateX(10px); }
+
+  #mobile-eng {
+    display: none; } }
 @media (max-width: 991px) {
   header {
     height: 700px;
     display: flex;
     justify-content: center; }
     header p {
-      font-size: 1.5rem; }
+      font-size: 1.4rem; }
 
   p {
-    font-size: 1.4rem; }
+    font-size: 1.3rem; }
 
   .menu {
     display: none; }
@@ -49,11 +57,11 @@
     width: 230.7692307692px;
     height: 161.5384615385px; }
 
-  #certificatas {
+  #courses #certificatas {
     padding-right: 45px;
     padding-left: 45px;
     justify-content: space-between; }
-    #certificatas img {
+    #courses #certificatas img {
       margin-left: 30px; }
 
   #exp .exper {
@@ -72,18 +80,21 @@
     #eng img {
       padding: 0;
       margin: 40px 0 40px 0;
-      width: 200px;
-      height: 200px; }
+      width: 220px;
+      height: 135px; }
 
   #why {
     height: 700px; }
     #why div {
       padding: 0 45px 0 45px; }
       #why div p {
-        font-size: 1.4rem; }
+        font-size: 1.3rem; }
 
   .p-tab {
-    margin-left: 50px; } }
+    margin-left: 50px; }
+
+  #eng_flag {
+    display: none; } }
 @media (max-width: 767px) {
   header {
     height: 600px;
@@ -127,6 +138,12 @@
     #certificatas img {
       margin: 0; }
 
+  #courses #certificatas {
+    padding-right: 0;
+    padding-left: 0; }
+    #courses #certificatas img {
+      margin-left: 0; }
+
   #cert {
     width: 150px;
     height: 105px; }
@@ -152,6 +169,8 @@
         width: 180px;
         height: 180px;
         padding: 0; }
+    #eng img {
+      margin: 20px 0 20px 0; }
 
   #drone {
     display: none; }
@@ -173,6 +192,12 @@
       padding-right: 0;
       padding-left: 0; }
       #why div p {
-        font-size: 1.1rem; } }
+        font-size: 1.1rem; }
+
+  #mobile-eng {
+    display: none; }
+
+  #eng_flag {
+    display: flex; } }
 
 /*# sourceMappingURL=media.css.map */

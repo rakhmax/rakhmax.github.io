@@ -14,6 +14,14 @@ $p-t: 45px
                 transition: 0.3s
                 &:hover
                     transform: translateX(-10px)
+    .drone
+        transition: 0.3s
+        &:hover
+            transform: translateX(10px)
+    #mobile-eng
+        display: none
+
+
 
 
 
@@ -24,9 +32,9 @@ $p-t: 45px
         justify-content: center
 
         p
-            font-size: 1.5rem
+            font-size: 1.4rem
     p
-        font-size: 1.4rem
+        font-size: 1.3rem
 
 
 
@@ -54,13 +62,13 @@ $p-t: 45px
     #cert
         width: (300px/1.3)
         height: (210px/1.3)
-
-    #certificatas
-        padding-right: $p-t
-        padding-left: $p-t
-        justify-content: space-between
-        img
-            margin-left: 30px
+    #courses
+        #certificatas
+            padding-right: $p-t
+            padding-left: $p-t
+            justify-content: space-between
+            img
+                margin-left: 30px
     #exp
         .exper
             justify-content: space-between
@@ -77,17 +85,20 @@ $p-t: 45px
         img
             padding: 0
             margin: 40px 0 40px 0
-            width: 200px
-            height: 200px
+            width: 220px
+            height: 135px
 
     #why
         height: $h_and_f
         div
             padding: 0 $p-t 0 $p-t
             p
-                font-size: 1.4rem
+                font-size: 1.3rem
     .p-tab
         margin-left: 50px
+
+    #eng_flag
+        display: none
 
 
 
@@ -143,6 +154,13 @@ $p-t: 45px
             text-align: center
         img
             margin: 0
+
+    #courses
+        #certificatas
+            padding-right: 0
+            padding-left: 0
+            img
+                margin-left: 0
     #cert
         width: 150px
         height: 105px
@@ -176,6 +194,8 @@ $p-t: 45px
                 width: 180px
                 height: 180px
                 padding: 0
+        img
+            margin: 20px 0 20px 0
     //background-size: 100%
         //background-blend-mode: multiply
         //background: url(../img/mobile_eng.png) no-repeat
@@ -201,3 +221,9 @@ $p-t: 45px
             padding-left: 0
             p
                 font-size: 1.1rem
+
+    #mobile-eng
+        display: none
+
+    #eng_flag
+        display: flex
