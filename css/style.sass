@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Jura|Play&subset=cyrillic')
-
 $mainTextClr: #efefef
 $eng: rgb(113, 24, 45)
 $p: 150px
 
+*:focus
+    outline: none
 
 *, *::before, *::after
     box-sizing: border-box
@@ -23,7 +23,6 @@ header
     color: $mainTextClr
     background-blend-mode: multiply
     background: linear-gradient( to bottom, rgba(0,0,0,0.5), rgba(59, 81, 113,1)), url("../img/oblaka_nebo_gory_les_vid_1920x1173.jpg")
-    //background-color: rgba(0,0,0,0.4)
     background-size: cover
 
 .me
@@ -72,16 +71,13 @@ h2
     margin-left: 55%
     margin-top: -5px
 
-
 #courses
     color: $mainTextClr
     background: #3b5171
     h2
         margin: 0
         padding: 20px 0 20px 0
-
     #certificatas
-
         display: flex
         justify-content: space-around
         align-items: center
@@ -97,7 +93,6 @@ h2
         margin: 0
         padding: 20px 0 20px 0
     .exper
-
         display: flex
         justify-content: space-around
         flex-direction: row-reverse
@@ -105,7 +100,6 @@ h2
         p
             align-self: center
     a
-
         color: #000000
 
 .triangle-1
@@ -140,7 +134,6 @@ h2
     color: $mainTextClr
     background: linear-gradient( to bottom, rgba(113, 24, 45, 0.7), rgba(0,0,0,0.7)), url("../img/web-programming.jpg") no-repeat
     background-blend-mode: multiply
-    //background-color: rgba(0,0,0,0.7)
     background-position: center center
     background-size: cover
 
@@ -156,8 +149,6 @@ h2
         p
             text-align: center
             display: flex
-
-
     p
         padding-bottom: 20px
 
