@@ -2,15 +2,95 @@
   #drone-mobile {
     display: none; }
 
-  #exp div a {
-    transition: 0.4s; }
-    #exp div a:hover {
-      transform: translateX(10px); } }
+  #drone-tablet {
+    display: none; }
+
+  #certificatas div a {
+    transition: 0.3s; }
+    #certificatas div a:hover {
+      transform: translateX(-10px); } }
 @media (max-width: 991px) {
+  header {
+    height: 700px;
+    display: flex;
+    justify-content: center; }
+    header p {
+      font-size: 1.5rem; }
+
+  p {
+    font-size: 1.4rem; }
+
+  .menu {
+    display: none; }
+
+  .me {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    padding: 25px; }
+
+  #name {
+    align-items: center; }
+
+  #name1 {
+    font-size: 1.5rem; }
+
+  #avatar {
+    width: 256px;
+    height: 256px; }
+
+  #drone {
+    display: none; }
+
+  #drone-mobile {
+    display: none; }
+
+  #cert {
+    width: 230.7692307692px;
+    height: 161.5384615385px; }
+
+  #certificatas {
+    padding-right: 45px;
+    padding-left: 45px;
+    justify-content: space-between; }
+    #certificatas img {
+      margin-left: 30px; }
+
+  #exp .exper {
+    justify-content: space-between;
+    padding-right: 45px;
+    padding-left: 45px; }
+
+  #ipad {
+    margin-right: 40px; }
+
+  #eng {
+    padding-left: 45px;
+    padding-right: 45px; }
+    #eng div {
+      justify-content: space-between; }
+    #eng img {
+      padding: 0;
+      margin: 40px 0 40px 0;
+      width: 200px;
+      height: 200px; }
+
+  #why {
+    height: 700px; }
+    #why div {
+      padding: 0 45px 0 45px; }
+      #why div p {
+        font-size: 1.4rem; }
+
+  .p-tab {
+    margin-left: 50px; } }
+@media (max-width: 767px) {
   header {
     height: 600px;
     display: flex;
     justify-content: center; }
+    header p {
+      font-size: 1.1rem; }
 
   p {
     font-size: 1.1rem; }
@@ -39,9 +119,13 @@
     padding-right: 25px; }
 
   #certificatas {
+    padding-right: 0;
+    padding-left: 0;
     flex-direction: column; }
     #certificatas p {
       text-align: center; }
+    #certificatas img {
+      margin: 0; }
 
   #cert {
     width: 150px;
@@ -50,8 +134,10 @@
   #exp {
     padding-left: 25px;
     padding-right: 25px; }
-    #exp div {
+    #exp .exper {
       flex-direction: column;
+      padding-right: 0;
+      padding-left: 0;
       align-items: center; }
     #exp p {
       text-align: center; }
@@ -70,8 +156,23 @@
   #drone {
     display: none; }
 
+  #drone-tablet {
+    display: none; }
+
+  #drone-mobile {
+    display: flex;
+    flex-direction: column; }
+
+  .p-tab {
+    margin-left: 0; }
+
   #why {
     height: 600px;
-    padding: 25px; } }
+    padding: 25px; }
+    #why div {
+      padding-right: 0;
+      padding-left: 0; }
+      #why div p {
+        font-size: 1.1rem; } }
 
 /*# sourceMappingURL=media.css.map */

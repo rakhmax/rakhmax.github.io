@@ -1,26 +1,119 @@
-$h_and_f: 600px
+$h_and_f: 700px
+$h_and_f_m: 600px
 $p: 25px
+$p-t: 45px
 
 @media (min-width: 992px)
     #drone-mobile
         display: none
-    #exp
+    #drone-tablet
+        display: none
+    #certificatas
         div
             a
-                transition: 0.4s
+                transition: 0.3s
                 &:hover
-                    transform: translateX(10px)
+                    transform: translateX(-10px)
+
+
+
 @media (max-width: 991px)
-
-
     header
         height: $h_and_f
         display: flex
         justify-content: center
 
+        p
+            font-size: 1.5rem
+    p
+        font-size: 1.4rem
+
+
+
+    .menu
+        display: none
+    .me
+        flex-direction: column-reverse
+        align-items: center
+        text-align: center
+        padding: $p
+
+    #name
+        align-items: center
+
+    #name1
+        font-size: 1.5rem
+
+    #avatar
+        width: 256px
+        height: 256px
+    #drone
+        display: none
+    #drone-mobile
+        display: none
+    #cert
+        width: (300px/1.3)
+        height: (210px/1.3)
+
+    #certificatas
+        padding-right: $p-t
+        padding-left: $p-t
+        justify-content: space-between
+        img
+            margin-left: 30px
+    #exp
+        .exper
+            justify-content: space-between
+            padding-right: $p-t
+            padding-left: $p-t
+    #ipad
+        margin-right: 40px
+    #eng
+
+        padding-left: $p-t
+        padding-right: $p-t
+        div
+            justify-content: space-between
+        img
+            padding: 0
+            margin: 40px 0 40px 0
+            width: 200px
+            height: 200px
+
+    #why
+        height: $h_and_f
+        div
+            padding: 0 $p-t 0 $p-t
+            p
+                font-size: 1.4rem
+    .p-tab
+        margin-left: 50px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px)
+    header
+        height: $h_and_f_m
+        display: flex
+        justify-content: center
+        p
+            font-size: 1.1rem
+
     p
         font-size: 1.1rem
-
 
     .menu
         display: none
@@ -43,9 +136,13 @@ $p: 25px
         padding-left: $p
         padding-right: $p
     #certificatas
+        padding-right: 0
+        padding-left: 0
         flex-direction: column
         p
             text-align: center
+        img
+            margin: 0
     #cert
         width: 150px
         height: 105px
@@ -54,9 +151,10 @@ $p: 25px
     #exp
         padding-left: $p
         padding-right: $p
-        div
+        .exper
             flex-direction: column
-
+            padding-right: 0
+            padding-left: 0
             align-items: center
         p
             //display: block
@@ -88,7 +186,18 @@ $p: 25px
     //    display: none
     #drone
         display: none
-
+    #drone-tablet
+        display: none
+    #drone-mobile
+        display: flex
+        flex-direction: column
+    .p-tab
+        margin-left: 0
     #why
-        height: $h_and_f
+        height: $h_and_f_m
         padding: $p
+        div
+            padding-right: 0
+            padding-left: 0
+            p
+                font-size: 1.1rem

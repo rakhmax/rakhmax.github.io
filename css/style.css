@@ -58,10 +58,11 @@ h2 {
   width: 45%;
   height: 30%;
   border-style: solid;
-  border-width: 20px 0 0 50px;
+  border-width: 25px 0 0 60px;
   border-color: #3b5171 transparent transparent transparent;
   text-align: center;
-  margin-left: 55%; }
+  margin-left: 55%;
+  margin-top: -5px; }
 
 #courses {
   color: #efefef;
@@ -77,21 +78,18 @@ h2 {
     #courses #certificatas div {
       display: flex;
       justify-content: space-around; }
-      #courses #certificatas div a {
-        transition: 0.3s; }
-        #courses #certificatas div a:hover {
-          box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.75); }
 
 #exp {
   background: #fbfbfb; }
   #exp h2 {
     margin: 0;
     padding: 20px 0 20px 0; }
-  #exp div {
+  #exp .exper {
     display: flex;
     justify-content: space-around;
-    flex-direction: row-reverse; }
-    #exp div p {
+    flex-direction: row-reverse;
+    align-items: center; }
+    #exp .exper p {
       align-self: center; }
   #exp a {
     color: #000000; }
@@ -101,9 +99,10 @@ h2 {
   width: 45%;
   height: 30%;
   border-style: solid;
-  border-width: 0 50px 20px 0;
+  border-width: 0 60px 25px 0;
   border-color: transparent transparent #71182d transparent;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: -5px; }
 
 #eng {
   background-color: #71182d;

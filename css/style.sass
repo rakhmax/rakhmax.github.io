@@ -2,6 +2,7 @@
 
 $mainTextClr: #efefef
 $eng: rgb(113, 24, 45)
+$p: 150px
 
 
 *, *::before, *::after
@@ -65,10 +66,11 @@ h2
     width: 45%
     height: 30%
     border-style: solid
-    border-width: 20px 0 0 50px
+    border-width: 25px 0 0 60px
     border-color: #3b5171 transparent transparent transparent
     text-align: center
     margin-left: 55%
+    margin-top: -5px
 
 
 #courses
@@ -79,6 +81,7 @@ h2
         padding: 20px 0 20px 0
 
     #certificatas
+
         display: flex
         justify-content: space-around
         align-items: center
@@ -86,21 +89,19 @@ h2
         div
             display: flex
             justify-content: space-around
-            a
-                transition: 0.3s
-                &:hover
-                    box-shadow: 0 0 24px 0 rgba(0,0,0,0.75)
+
 
 #exp
     background: #fbfbfb
     h2
         margin: 0
         padding: 20px 0 20px 0
-    div
+    .exper
+
         display: flex
         justify-content: space-around
         flex-direction: row-reverse
-
+        align-items: center
         p
             align-self: center
     a
@@ -112,10 +113,10 @@ h2
     width: 45%
     height: 30%
     border-style: solid
-    border-width: 0 50px 20px 0
+    border-width: 0 60px 25px 0
     border-color: transparent transparent $eng transparent
     text-align: center
-
+    margin-bottom: -5px
 
 #eng
     background-color: $eng
