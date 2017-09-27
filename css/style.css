@@ -110,9 +110,6 @@ h2 {
   background-color: #71182d;
   color: #efefef;
   font-size: 1.5rem; }
-  #eng img {
-    padding: 20px;
-    margin: 20px; }
   #eng div {
     display: flex;
     justify-content: space-around; }

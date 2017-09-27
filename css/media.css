@@ -16,6 +16,9 @@
       transform: translateX(10px); }
 
   #mobile-eng {
+    display: none; }
+
+  #eng_phone {
     display: none; } }
 @media (max-width: 991px) {
   header {
@@ -97,6 +100,9 @@
     display: none; }
 
   .br-none {
+    display: none; }
+
+  #eng_phone {
     display: none; } }
 @media (max-width: 767px) {
   header {
@@ -204,6 +210,12 @@
     display: flex; }
 
   .br-none {
-    display: none; } }
+    display: none; }
+
+  #eng_flag {
+    display: none; }
+
+  #eng_phone {
+    display: flex; } }
 
 /*# sourceMappingURL=media.css.map */
