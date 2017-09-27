@@ -116,9 +116,10 @@ h2 {
   #eng div {
     display: flex;
     justify-content: space-around; }
-    #eng div h3 {
+    #eng div p {
       align-self: center;
-      text-align: center; }
+      text-align: center;
+      font-size: 1.5rem; }
 
 .va {
   vertical-align: middle; }

@@ -10,9 +10,9 @@
     #certificatas div a:hover {
       transform: translateX(-10px); }
 
-  .drone {
+  .hvr-drone {
     transition: 0.3s; }
-    .drone:hover {
+    .hvr-drone:hover {
       transform: translateX(10px); }
 
   #mobile-eng {
@@ -62,7 +62,7 @@
     padding-left: 45px;
     justify-content: space-between; }
     #courses #certificatas img {
-      margin-left: 30px; }
+      margin-left: 50px; }
 
   #exp .exper {
     justify-content: space-between;
@@ -94,6 +94,9 @@
     margin-left: 50px; }
 
   #eng_flag {
+    display: none; }
+
+  .br-none {
     display: none; } }
 @media (max-width: 767px) {
   header {
@@ -166,8 +169,8 @@
       flex-direction: column;
       align-items: center; }
       #eng div img {
-        width: 180px;
-        height: 180px;
+        width: 150px;
+        height: 150px;
         padding: 0; }
     #eng img {
       margin: 20px 0 20px 0; }
@@ -198,6 +201,9 @@
     display: none; }
 
   #eng_flag {
-    display: flex; } }
+    display: flex; }
+
+  .br-none {
+    display: none; } }
 
 /*# sourceMappingURL=media.css.map */
